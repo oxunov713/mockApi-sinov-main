@@ -33,7 +33,7 @@ Future<void> main() async {
   //tododa yangi obyekt yasab oldim
 
   TodoModel todo2 = TodoModel(country: '000000000', city: '00000');
-
+//obyekt oldim
   TodoModel todo3 = TodoModel();
  
   myHTTP.Response responsePostTodos1 = await myHTTP.post(
